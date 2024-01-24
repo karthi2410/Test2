@@ -24,7 +24,7 @@ import { useState } from "react";
     const fetchData = async (val) => {
         let finalVal  = val;
         try {
-          const response = await fetch('http://13.233.138.49:3000/smoke-test', {
+          const response = await fetch('https://13.233.138.49:3000/smoke-test', {
             method: 'POST', // or 'GET', 'PUT', etc.
             headers: {
               'Content-Type': 'application/json',
